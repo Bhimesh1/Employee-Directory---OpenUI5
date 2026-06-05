@@ -1,0 +1,15 @@
+<mvc:View
+  controllerName="employee.directory.controller.App"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  displayBlock="true">
+
+  <App>
+    <Page title="Employee Directory">
+      <content>
+        <Text text="OpenUI5 application shell is ready." />
+      </content>
+    </Page>
+  </App>
+
+</mvc:View>
