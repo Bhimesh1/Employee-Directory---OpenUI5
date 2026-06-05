@@ -1,0 +1,44 @@
+{
+  "employees": [
+    {
+      "id": "0",
+      "name": "Aarav Sharma",
+      "department": "Engineering",
+      "role": "Frontend Developer",
+      "email": "aarav.sharma@example.com",
+      "location": "Berlin"
+    },
+    {
+      "id": "1",
+      "name": "Mia Johnson",
+      "department": "Product",
+      "role": "Product Manager",
+      "email": "mia.johnson@example.com",
+      "location": "Munich"
+    },
+    {
+      "id": "2",
+      "name": "Luca Rossi",
+      "department": "Design",
+      "role": "UX Designer",
+      "email": "luca.rossi@example.com",
+      "location": "Milan"
+    },
+    {
+      "id": "3",
+      "name": "Sofia Chen",
+      "department": "Engineering",
+      "role": "Backend Developer",
+      "email": "sofia.chen@example.com",
+      "location": "Hamburg"
+    },
+    {
+      "id": "4",
+      "name": "Noah Williams",
+      "department": "People",
+      "role": "HR Business Partner",
+      "email": "noah.williams@example.com",
+      "location": "Amsterdam"
+    }
+  ]
+}

@@ -7,7 +7,17 @@
   <App>
     <Page title="Employee Directory">
       <content>
-        <Text text="OpenUI5 application shell is ready." />
+        <List
+          id="employeeList"
+          items="{/employees}"
+          noDataText="No employees found">
+
+          <StandardListItem
+            title="{name}"
+            description="{department}"
+            info="{role}" />
+
+        </List>
       </content>
     </Page>
   </App>
