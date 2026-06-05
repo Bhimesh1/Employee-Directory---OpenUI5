@@ -7,6 +7,11 @@
   <App>
     <Page title="Employee Directory">
       <content>
+        <SearchField
+          width="100%"
+          placeholder="Search by name, department, or role"
+          liveChange=".onSearch" />
+
         <List
           id="employeeList"
           items="{/employees}"
