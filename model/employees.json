@@ -6,7 +6,9 @@
       "department": "Engineering",
       "role": "Frontend Developer",
       "email": "aarav.sharma@example.com",
-      "location": "Berlin"
+      "phone": "+49 30 1234 1000",
+      "location": "Berlin",
+      "bio": "Builds user interfaces and reusable frontend components for internal business applications."
     },
     {
       "id": "1",
@@ -14,7 +16,9 @@
       "department": "Product",
       "role": "Product Manager",
       "email": "mia.johnson@example.com",
-      "location": "Munich"
+      "phone": "+49 89 1234 2000",
+      "location": "Munich",
+      "bio": "Works with engineering, design, and stakeholders to define product requirements and delivery priorities."
     },
     {
       "id": "2",
@@ -22,7 +26,9 @@
       "department": "Design",
       "role": "UX Designer",
       "email": "luca.rossi@example.com",
-      "location": "Milan"
+      "phone": "+39 02 1234 3000",
+      "location": "Milan",
+      "bio": "Designs user flows, wireframes, prototypes, and usability improvements for product teams."
     },
     {
       "id": "3",
@@ -30,7 +36,9 @@
       "department": "Engineering",
       "role": "Backend Developer",
       "email": "sofia.chen@example.com",
-      "location": "Hamburg"
+      "phone": "+49 40 1234 4000",
+      "location": "Hamburg",
+      "bio": "Develops APIs, service integrations, and backend workflows for employee-facing systems."
     },
     {
       "id": "4",
@@ -38,7 +46,9 @@
       "department": "People",
       "role": "HR Business Partner",
       "email": "noah.williams@example.com",
-      "location": "Amsterdam"
+      "phone": "+31 20 1234 5000",
+      "location": "Amsterdam",
+      "bio": "Supports hiring, onboarding, employee development, and people operations across teams."
     }
   ]
 }

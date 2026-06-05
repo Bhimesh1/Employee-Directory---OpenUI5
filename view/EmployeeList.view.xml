@@ -13,14 +13,16 @@
       <List
         id="employeeList"
         items="{/employees}"
-        noDataText="No employees found">
+        noDataText="No employees found"
+        mode="SingleSelectMaster"
+        includeItemInSelection="true"
+        selectionChange=".onEmployeeSelect">
 
         <StandardListItem
           title="{name}"
           description="{department}"
           info="{role}"
-          type="Navigation"
-          press=".onEmployeePress" />
+          type="Navigation" />
 
       </List>
     </content>

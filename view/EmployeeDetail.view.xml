@@ -15,9 +15,19 @@
         number="{role}">
         <attributes>
           <ObjectAttribute title="Email" text="{email}" />
+          <ObjectAttribute title="Phone" text="{phone}" />
           <ObjectAttribute title="Location" text="{location}" />
         </attributes>
       </ObjectHeader>
+
+      <Panel
+        headerText="About"
+        class="sapUiResponsiveMargin"
+        width="auto">
+        <content>
+          <Text text="{bio}" />
+        </content>
+      </Panel>
     </content>
 
   </Page>

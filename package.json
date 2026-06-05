@@ -1,0 +1,12 @@
+{
+  "name": "employee-directory-openui5",
+  "version": "1.0.0",
+  "description": "A simple employee directory application built with OpenUI5.",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 8085"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

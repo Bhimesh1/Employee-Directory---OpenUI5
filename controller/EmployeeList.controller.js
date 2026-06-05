@@ -30,9 +30,15 @@ sap.ui.define([
       oBinding.filter([oCombinedFilter]);
     },
 
-    onEmployeePress: function (oEvent) {
-      const oSelectedItem = oEvent.getSource();
+    onEmployeeSelect: function (oEvent) {
+      const oSelectedItem = oEvent.getParameter("listItem");
       const oContext = oSelectedItem.getBindingContext();
+
+      if (!oContext) {
+        console.error("No binding context found for selected employee.");
+        return;
+      }
+
       const sEmployeePath = oContext.getPath();
       const sEmployeeId = sEmployeePath.split("/").pop();
 
