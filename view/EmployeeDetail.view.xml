@@ -1,0 +1,25 @@
+<mvc:View
+  controllerName="employee.directory.controller.EmployeeDetail"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+
+  <Page
+    title="Employee Details"
+    showNavButton="true"
+    navButtonPress=".onBack">
+
+    <content>
+      <ObjectHeader
+        title="{name}"
+        intro="{department}"
+        number="{role}">
+        <attributes>
+          <ObjectAttribute title="Email" text="{email}" />
+          <ObjectAttribute title="Location" text="{location}" />
+        </attributes>
+      </ObjectHeader>
+    </content>
+
+  </Page>
+
+</mvc:View>

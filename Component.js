@@ -14,8 +14,9 @@ sap.ui.define([
 
       const oEmployeeModel = new JSONModel();
       oEmployeeModel.loadData("model/employees.json");
-
       this.setModel(oEmployeeModel);
+
+      this.getRouter().initialize();
     }
   });
 });

@@ -4,27 +4,6 @@
   xmlns="sap.m"
   displayBlock="true">
 
-  <App>
-    <Page title="Employee Directory">
-      <content>
-        <SearchField
-          width="100%"
-          placeholder="Search by name, department, or role"
-          liveChange=".onSearch" />
-
-        <List
-          id="employeeList"
-          items="{/employees}"
-          noDataText="No employees found">
-
-          <StandardListItem
-            title="{name}"
-            description="{department}"
-            info="{role}" />
-
-        </List>
-      </content>
-    </Page>
-  </App>
+  <App id="app" />
 
 </mvc:View>

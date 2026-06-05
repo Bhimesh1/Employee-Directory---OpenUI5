@@ -26,6 +26,38 @@
       "type": "XML",
       "id": "app",
       "async": true
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "viewPath": "employee.directory.view",
+        "controlId": "app",
+        "controlAggregation": "pages",
+        "async": true
+      },
+      "routes": [
+        {
+          "pattern": "",
+          "name": "employeeList",
+          "target": "employeeList"
+        },
+        {
+          "pattern": "employees/{employeeId}",
+          "name": "employeeDetail",
+          "target": "employeeDetail"
+        }
+      ],
+      "targets": {
+        "employeeList": {
+          "viewName": "EmployeeList",
+          "viewId": "employeeList"
+        },
+        "employeeDetail": {
+          "viewName": "EmployeeDetail",
+          "viewId": "employeeDetail"
+        }
+      }
     }
   }
 }

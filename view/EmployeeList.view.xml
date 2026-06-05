@@ -1,0 +1,29 @@
+<mvc:View
+  controllerName="employee.directory.controller.EmployeeList"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+
+  <Page title="Employee Directory">
+    <content>
+      <SearchField
+        width="100%"
+        placeholder="Search by name, department, or role"
+        liveChange=".onSearch" />
+
+      <List
+        id="employeeList"
+        items="{/employees}"
+        noDataText="No employees found">
+
+        <StandardListItem
+          title="{name}"
+          description="{department}"
+          info="{role}"
+          type="Navigation"
+          press=".onEmployeePress" />
+
+      </List>
+    </content>
+  </Page>
+
+</mvc:View>
